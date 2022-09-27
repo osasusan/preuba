@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        var nombre : String?
+        var nombre: String?
         //var string = String?(etName)
         
     }
