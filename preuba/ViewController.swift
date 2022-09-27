@@ -23,10 +23,11 @@ class ViewController: UIViewController {
     
     
     override func viewDidLoad() {
+    
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-              
+        var nombre : String?
         //var string = String?(etName)
         
     }
@@ -35,7 +36,7 @@ class ViewController: UIViewController {
         
         guard etName.text != nil else {
             return
-        }
+        }no
             
         
  
