@@ -17,6 +17,7 @@
 		48C1077D28E36B4B00CE9B41 /* preubaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C1077C28E36B4B00CE9B41 /* preubaUITests.swift */; };
 		48C1077F28E36B4B00CE9B41 /* preubaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C1077E28E36B4B00CE9B41 /* preubaUITestsLaunchTests.swift */; };
 		48C1078C28E3735F00CE9B41 /* homeScream.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48C1078B28E3735F00CE9B41 /* homeScream.storyboard */; };
+		48F88FD128E7602E009BBCA3 /* MyTableVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48F88FD028E7602E009BBCA3 /* MyTableVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		48C1077C28E36B4B00CE9B41 /* preubaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preubaUITests.swift; sourceTree = "<group>"; };
 		48C1077E28E36B4B00CE9B41 /* preubaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = preubaUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		48C1078B28E3735F00CE9B41 /* homeScream.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = homeScream.storyboard; sourceTree = "<group>"; };
+		48F88FD028E7602E009BBCA3 /* MyTableVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				48C1075B28E36B4700CE9B41 /* AppDelegate.swift */,
 				48C1075D28E36B4700CE9B41 /* SceneDelegate.swift */,
 				48C1075F28E36B4700CE9B41 /* ViewController.swift */,
+				48F88FD028E7602E009BBCA3 /* MyTableVc.swift */,
 				48C1076128E36B4700CE9B41 /* Main.storyboard */,
 				48C1078B28E3735F00CE9B41 /* homeScream.storyboard */,
 				48C1076428E36B4A00CE9B41 /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 			files = (
 				48C1076028E36B4700CE9B41 /* ViewController.swift in Sources */,
 				48C1075C28E36B4700CE9B41 /* AppDelegate.swift in Sources */,
+				48F88FD128E7602E009BBCA3 /* MyTableVc.swift in Sources */,
 				48C1075E28E36B4700CE9B41 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

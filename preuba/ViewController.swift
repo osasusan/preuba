@@ -27,17 +27,17 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        var nombre: String?
+       // var nombre: String?
         //var string = String?(etName)
         
     }
 
     @IBAction func presBoton(_ sender: Any) {
         
-        guard etName.text != nil else {
-            return
-        }no
-            
+        if 1 == 1{
+            performSegue(withIdentifier: "p", sender: nil)
+        }
+      
         
  
     
