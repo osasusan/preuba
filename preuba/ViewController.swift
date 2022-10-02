@@ -20,7 +20,9 @@ class ViewController: UIViewController {
     @IBOutlet weak var btLogin: UIButton!
     
     @IBOutlet weak var btRegister: UIButton!
+    static let password :  = <#initializer#>UITextContentType
     
+
     
     override func viewDidLoad() {
     

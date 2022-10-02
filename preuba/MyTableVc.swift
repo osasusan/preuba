@@ -10,7 +10,7 @@ import UIKit
 class MyTableVc: UIViewController, UITableViewDelegate ,UITableViewDataSource {
     @IBOutlet weak var tableView :UITableView!
     
-    let dataTable = ["Ferra","Federico ","Hoal ", "Adios"]
+    let dataTable = ["Ferra","Federico ","Hola ", "Adios"]
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return dataTable.count
@@ -18,9 +18,20 @@ class MyTableVc: UIViewController, UITableViewDelegate ,UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-      var cellView = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath)
-        return cellView
+      
         
+    //let cell = tableView.dequeueReusableCell(withIdentifier: "MyCell", for: indexPath)
+        
+    let cell2:Mycell = tableView.dequeueReusableCell(withIdentifier: "tableName", for: indexPath) as! Mycell
+        cell2.tvRealName.text = dataTable[indexPath.row]
+
+        return cell2
+        
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 100.0
+    
     }
     
     override func viewDidLoad() {
